@@ -11,16 +11,32 @@
 <body>
     <header class="header">
         <h1>Tribute Page</h1>
-        <p>Our Hero</p>
+        <p>Our Heroes</p>
     </header>
 
     <main class="main-section">
+        <section class="tribute-section" id="albert">
+            <h2 class="person-name">Albert Einstein</h2>
+            <hr class="divider">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officia dolorum sed rerum, eaque molestias eius
+                nulla. Laboriosam quisquam accusamus eligendi error praesentium consequatur pariatur. In natus quaerat
+                voluptatem
+                asperiores!</p>
+            <img src="/images/albert.jpg" class="person-image" alt="Alber Einsten">
+            <input type="text" class="btn" value="View Tribute">
+        </section>
+
+        <!-- Down Arrow -->
+        <a href="#steve-job">
+            <span class="down-arrow">&darr;</span>
+        </a>
+
         <section class="tribute-section">
             <h2 class="person-name">Stephen Hawking</h2>
             <hr class="divider">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officia dolorum sed rerum, eaque molestias eius nulla. Laboriosam quisquam accusamus eligendi error praesentium consequatur pariatur. In natus quaerat voluptatem asperiores!</p>
             <img src="/images/hawking.jpg" class="person-image" alt="Stephen Hawking">
-            <button class="btn" type="button">View Tribute</button>
+            <input type="text" class="btn" value="View Tribute">
         </section>
         
             <!-- Down Arrow -->
@@ -35,7 +51,7 @@
             nulla. Laboriosam quisquam accusamus eligendi error praesentium consequatur pariatur. In natus quaerat voluptatem
             asperiores!</p>
             <img src="/images/steve.jpg" class="person-image" alt="Steve Jobs">
-            <button class="btn" type="button">View Tribute</button>
+           <input type="text" class="btn" value="View Tribute">
         </section>
 
         <!-- Down Arrow -->
@@ -50,7 +66,7 @@
             nulla. Laboriosam quisquam accusamus eligendi error praesentium consequatur pariatur. In natus quaerat voluptatem
             asperiores!</p>
             <img src="/images/isaac.jpg" class="person-image" alt="Isaac Newton">
-            <button class="btn" type="button">View Tribute</button>
+            <input type="text" class="btn" value="View Tribute">
         </section>
 
         <!-- Down Arrow -->
@@ -65,13 +81,13 @@
             nulla. Laboriosam quisquam accusamus eligendi error praesentium consequatur pariatur. In natus quaerat voluptatem
             asperiores!</p>
             <img src="/images/albert.jpg" class="person-image" alt="Alber Einsten">
-            <button class="btn" type="button">View Tribute</button>
+            <input type="text" class="btn" value="View Tribute">
         </section>
 
     </main>
     <footer class="footer social">
         <h2>Let's Connect</h2>
-        <hr class="divider divider-header">
+        <hr class="divider divider-footer-header">
         <br>
         <ul class="list-group">
             <li class="list-item"><a href="https://twitter.com/Zul_fiqar99" class="link fa fa-twitter" target="_blank"></a>
@@ -81,7 +97,8 @@
             <li class="list-item"><a href="https://github.com/msafirijuma" class="link fa fa-github" target="_blank"></a>
             </li>
         </ul><br>
-        &copy; created by Msafiri
+        <!-- &copy;  -->
+       <marquee behavior="" direction="">Created by Msafiri</marquee> 
     </footer>
 </body>
 </html>

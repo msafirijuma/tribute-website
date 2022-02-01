@@ -34,10 +34,18 @@
   font-size: 2rem;
   font-weight: lighter;
   letter-spacing: 2px;
+  color: #999;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header > p {
+  color: #999;
+  font-size: x-large;
 }
 
 .person-name {
-  color: var(--web-color);
+  color: var(--primary);
 }
 
 .main-section {
@@ -54,10 +62,11 @@
 
 /* Down Arrow */
 .down-arrow {
+  display: inline-block;
   color: var(--primary);
   font-weight: 900;
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .tribute-section {
@@ -72,7 +81,7 @@
 }
 
 .tribute-section:hover {
-  border: 2px solid var(--primary);
+  border: 2.5px solid var(--secondary);
   border-radius: 6px;
 }
 
@@ -84,12 +93,13 @@
 
 /* Buttons */
 .btn {
+  display: inline-block;
   max-width: 400px;
   height: 30px;
-  padding: 10px 15px;
+  padding: 10px;
   text-align: center;
-  margin: 0 auto;
-  margin: 8px;
+  margin: 10px auto;
+  font-size: 1.2rem;
   border-radius: 15px;
   background-color: var(--primary);
   color: var(--off-white);
@@ -107,6 +117,7 @@
   width: 180px;
   height: 180px;
   border-radius: 50%;
+  margin: 8px 2px;
 }
 
 /* Footer */
@@ -155,24 +166,27 @@
 
 .divider {
   width: 20vh;
-  height: 3px;
+  height: 4px;
   border-radius: 100px;
-  background-color: var(--primary);
+  background-color: var(--web-color);
   margin: 3px auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .divider-footer-header {
-  background-color: var(--off-white);
+  background-color: #999;
 }
 
 .footer {
   background-color: var(--primary);
   text-align: center;
   font-size: 1.3rem;
-  color: var(--off-white);
+  padding: 5px 2px;
+  color: #999;
   font-weight: 100px;
   border-top: 4px solid gray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 footer .nav-bar .list-group {
