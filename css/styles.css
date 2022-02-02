@@ -228,6 +228,7 @@ footer .list-group .list-item {
   justify-content: center;
   align-items: center;
   position: relative;
+  color: #333;
 }
 
 .person-data {
@@ -255,9 +256,11 @@ footer .list-group .list-item {
   height: 35vh;
   margin: 10px auto;
   background-color: black;
+  overflow: hidden;
 }
 
 .video {
   max-width: 1200px;
   height: 35vh;
+  overflow: hidden;
 }
