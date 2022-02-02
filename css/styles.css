@@ -221,3 +221,43 @@ footer .list-group .list-item {
 }
 
 /*  Heroes sections and Pages For Each Person */
+
+.introduction-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.person-data {
+  margin: 20px;
+  padding: 5px;
+}
+
+.person-data > h2 {
+  font-weight: 500;
+  position: relative;
+  left: 15px;
+  font-size: 1.5rem;
+}
+
+.person-data > p {
+  position: relative;
+  left: 40px;
+  font-size: 1.2rem;
+  font-weight: 580px;
+  margin-top: 3px;
+}
+
+.video-banner {
+  max-width: 1200px;
+  height: 35vh;
+  margin: 10px auto;
+  background-color: black;
+}
+
+.video {
+  max-width: 1200px;
+  height: 35vh;
+}
