@@ -83,6 +83,7 @@
 .tribute-section:hover {
   border: 2.5px solid var(--secondary);
   border-radius: 6px;
+  margin-top: 15px;
 }
 
 .tribute-section h2 {
@@ -218,3 +219,5 @@ footer .list-group .list-item {
   color: var(--secondary-focus);
   text-decoration: underline;
 }
+
+/*  Heroes sections and Pages For Each Person */
