@@ -257,7 +257,7 @@ footer .list-group .list-item {
 }
 
 .video-banner {
-  max-width: 1200px;
+  max-width: 1300px;
   height: 35vh;
   margin: 10px auto;
   background-color: black;
@@ -268,6 +268,8 @@ footer .list-group .list-item {
   max-width: 1200px;
   height: 35vh;
   overflow: hidden;
+  width: 350px;
+  height: 245px;
 }
 
 .img {
@@ -281,8 +283,27 @@ footer .list-group .list-item {
   padding: 10px;
 }
 
+.biography-section > p {
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
 .author {
   color: var(--web-color);
   text-decoration: none;
   font-weight: 300;
+}
+
+.facts-section {
+  margin: 10px auto;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.facts-section > p {
+  margin: 3px;
+}
+.facts-section > h2 {
+  text-transform: capitalize;
 }
