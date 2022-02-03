@@ -222,13 +222,16 @@ footer .list-group .list-item {
 
 /*  Heroes sections and Pages For Each Person */
 
-.introduction-section {
+.introduction-section,
+.inspiration-section,
+.biography-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   color: #333;
+  margin: 30px 10px;
 }
 
 .person-data {
@@ -236,11 +239,13 @@ footer .list-group .list-item {
   padding: 5px;
 }
 
-.person-data > h2 {
+.person-data > h2,
+.inspiration-section > h2 {
   font-weight: 500;
   position: relative;
   left: 15px;
   font-size: 1.5rem;
+  margin: 10px 2px;
 }
 
 .person-data > p {
@@ -263,4 +268,21 @@ footer .list-group .list-item {
   max-width: 1200px;
   height: 35vh;
   overflow: hidden;
+}
+
+.img {
+  display: inline-block;
+  position: relative;
+  left: 8px;
+  width: 400px;
+}
+
+.biography-section {
+  padding: 10px;
+}
+
+.author {
+  color: var(--web-color);
+  text-decoration: none;
+  font-weight: 300;
 }
