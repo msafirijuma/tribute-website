@@ -308,4 +308,20 @@ footer .list-group .list-item {
 }
 .facts-section > h2 {
   text-transform: capitalize;
+  color: #666;
+  margin: 4px;
+}
+
+/* Reference */
+
+.reference {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #333;
+}
+
+.credit-website {
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 1.2rem;
 }
