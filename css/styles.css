@@ -272,11 +272,13 @@ footer .list-group .list-item {
   height: 245px;
 }
 
-.img {
+.img-quote {
   display: inline-block;
   position: relative;
-  left: 8px;
-  width: 400px;
+  /* left: 8px; */
+  width: 350px;
+  height: 240px;
+  filter: opacity(90%);
 }
 
 .biography-section {
