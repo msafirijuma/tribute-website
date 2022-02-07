@@ -229,28 +229,30 @@ footer .list-group .list-item {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   color: #333;
   margin: 30px 10px;
 }
 
 .person-data {
-  margin: 20px;
   padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .person-data > h2,
 .inspiration-section > h2 {
   font-weight: 500;
-  position: relative;
-  left: 15px;
   font-size: 1.5rem;
-  margin: 10px 2px;
+}
+
+.inspiration-section > h2 {
+  margin-bottom: 10px;
 }
 
 .person-data > p {
-  position: relative;
-  left: 40px;
   font-size: 1.2rem;
   font-weight: 580px;
   margin-top: 3px;
@@ -297,10 +299,14 @@ footer .list-group .list-item {
 }
 
 .facts-section {
-  margin: 10px auto;
+  /* margin: 10px auto; */
   padding: 10px;
   letter-spacing: 1px;
   color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .facts-section > p {
@@ -318,10 +324,20 @@ footer .list-group .list-item {
   font-size: 1.2rem;
   font-weight: lighter;
   color: #333;
+  line-height: 30px;
 }
 
 .credit-website {
   text-decoration: none;
   color: var(--secondary);
   font-size: 1.2rem;
+}
+
+.reference-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
