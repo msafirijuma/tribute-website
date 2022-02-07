@@ -341,3 +341,7 @@ footer .list-group .list-item {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
+.copyright {
+  font-size: small;
+}
